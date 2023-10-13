@@ -15,7 +15,7 @@ sareesq=int(input('Enter no of sarees:'))
 tshirtq=int(input('Enter no of tshirt:'))
 shoesq=int(input('Enter no of shoes:'))
 pc=input("enter promocode")
-tot=(shirtq*shirt)+(frockq*frock)+(sareesq*sarees)+(tshirtq*tshirt)+(shoesq*shoesq)
+tot=(shirtq*shirt)+(frockq*frock)+(sareesq*sarees)+(tshirtq*tshirt)+(shoes*shoesq)
 if pc=='dussehra' or pc=='DUSSHERA':
     disc=tot*50/100
 elif pc=='weekend' or pc=='WEEKEND':
