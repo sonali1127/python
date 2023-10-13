@@ -24,7 +24,7 @@ elif tot>=5000:
     disc=tot*35/100
 elif tot>=2000:
     disc=tot*25/100
-elif tot>=5000:
+elif tot>=1000:
     disc=tot*15/100
 else:
     disc=tot*5/100
