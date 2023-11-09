@@ -1,4 +1,3 @@
-#User function Template for python3
 class Solution:
     def isHappy (self, N):
         while N>9:
